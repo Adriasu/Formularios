@@ -7,17 +7,22 @@
   </head>
   <body>
 
+<div style="margin: 10px 50px">
     <ul>
-      <li><a href="http://127.0.0.1:5501/PAGES/formulario1.html">FORMULARIO1</a><br></li>
-      <li><a href="../Formularios/PAGES/formulario2.html">FORMULARIO2</a><br></li>
-      <li><a href="../Formularios/PAGES/formulario3.html">FORMULARIO3</a><br></li>
-      <li><a href="../Formularios/PAGES/formulario4.html">FORMULARIO4</a><br></li>
-      <li><a href="../Formularios/PAGES/formulario5.html">FORMULARIO5</a><br></li>
+      <li><a href="/PAGES/formulario1.html">FORMULARIO1</a><br></li>
+      <li><a href="/PAGES/formulario2.html">FORMULARIO2</a><br></li>
+      <li><a href="/PAGES/formulario3.html">FORMULARIO3</a><br></li>
+      <li><a href="/PAGES/formulario4.html">FORMULARIO4</a><br></li>
+      <li><a href="/PAGES/formulario5.html">FORMULARIO5</a><br></li>
     </ul>
 
-    <h2>Club de la tercera edad</h2>
+    
+    <div ></div>
 
     <form>
+        <fieldset>
+        <h2>Club de la tercera edad</h2>
+
       <label for="fname">Nombre:</label><br />
       <input type="text" id="fname" name="fname" placeholder="Escribe tu nombre" /><br /><br>
 
@@ -53,12 +58,14 @@
       <input type="tel" id="phone" name="phone" placeholder="Escribe tu Teléfono"><br><br>
 
       <input type="submit" value="submit">
+    </fieldset>
 
       </form>
 
-      <h2>Robo de bicicleta</h2>
-
+      
       <form>
+        <fieldset>
+          <h2>Robo de bicicleta</h2>
         <label for="day">Fecha:</label><br>
         <input type="date" id="day" name="date"><br><br>
 
@@ -114,7 +121,10 @@
             <option value="giant"></option>
             <option value="cube"></option>
         </datalist>
+    </fieldset>
       </form>
+
+    </div>
  
   </body>
 </html>
