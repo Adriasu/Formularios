@@ -7,19 +7,20 @@
 </head>
 <body>
 
-    <div style="margin: 10px 50px">
+    <div style="margin: 10px 300px">
 
     <ul>
         <li><a href="/index.html">INDEX</a><br></li>
-        <li><a href="/PAGES/formulario1.html">FORMULARIO1</a><br></li>
-        <li><a href="/PAGES/formulario3.html">FORMULARIO3</a><br></li>
-        <li><a href="/PAGES/formulario4.html">FORMULARIO4</a><br></li>
-        <li><a href="/PAGES/formulario5.html">FORMULARIO5</a><br></li>
+        <li><a href="/PAGES/formulario1.html">FORMULARIO 1</a><br></li>
+        <li style="color: crimson;">FORMULARIO 2</li>
+        <li><a href="/PAGES/formulario3.html">FORMULARIO 3</a><br></li>
+        <li><a href="/PAGES/formulario4.html">FORMULARIO 4</a><br></li>
+        <li><a href="/PAGES/formulario5.html">FORMULARIO 5</a><br></li>
       </ul>
 
     <form>
-
-        <p>Preferencias</p>
+        <fieldset> 
+            <legend>Preferencias</legend>
 
         <label for="fname">Nombre</label>
         <input type="text" id="fname" name="nombre"/><br>
@@ -33,7 +34,9 @@
         <label for="date">Elija una fecha:</label>
         <input type="date" id="date" name="date"><br>
 
-        <p>Rellene las opciones siguientes</p>
+    </fieldset>
+    <fieldset>
+        <legend>Rellene las opciones siguientes</legend>
 
         <select name="medio_transporte" id="medio_transporte">
             <option value="automovil">Automóvil</option>
@@ -64,13 +67,9 @@
         <label for="color">Elija un color:</label>
         <input type="color" id="color" name="color"><br>
 
-
+    </fieldset>
     </form>
-    
     </div>
-
-
-
     
 </body>
 </html>

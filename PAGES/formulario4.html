@@ -7,20 +7,21 @@
 </head>
 <body>
 
-    <div style="margin: 10px 50px">
+    <div style="margin: 10px 300px">
 
     <ul>
         <li><a href="/index.html">INDEX</a><br></li>
-        <li><a href="/PAGES/formulario1.html">FORMULARIO1</a><br></li>
-        <li><a href="/PAGES/formulario2.html">FORMULARIO2</a><br></li>
-        <li><a href="/PAGES/formulario3.html">FORMULARIO3</a><br></li>
-        <li><a href="/PAGES/formulario5.html">FORMULARIO5</a><br></li>
+        <li><a href="/PAGES/formulario1.html">FORMULARIO 1</a><br></li>
+        <li><a href="/PAGES/formulario2.html">FORMULARIO 2</a><br></li>
+        <li><a href="/PAGES/formulario3.html">FORMULARIO 3</a><br></li>
+        <li style="color: crimson;">FORMULARIO 4</li>
+        <li><a href="/PAGES/formulario5.html">FORMULARIO 5</a><br></li>
       </ul>
 
       <form>
-
-        <p>Preferencias</p>
-
+        <fieldset>
+            <legend>Preferencias</legend>
+    
       <input type="checkbox" id="geografia" name="asignatura" value="asignaturaGeografia" />
       <label for="geografia">Geografía</label>  
       <input type="checkbox" id="lengua" name="asignatura" value="asignaturaLengua" />
@@ -67,8 +68,10 @@
       <label for="myfile">Elija un fichero:</label>
       <input type="file" id="myfile" name="myfile"><br>
 
-      <p>Rellene las opciones siguientes</p>
-
+    </fieldset>
+    <fieldset>
+        <legend>Rellene las opciones siguientes</legend>
+   
       <input type="radio" id="tarjeta" name="hardware" value="hardwareTarjeta_aceleradora" />
       <label for="tarjeta">Tarjeta aceleradora</label><br>
       <input type="radio" id="monitor" name="hardware" value="hardwareMonitor_led" />
@@ -111,14 +114,11 @@
         <option value="html">HTML</option>
       </select> <br>
 
+    </fieldset>
+
       </form>
 
     </div>
-
-
-
-
-
     
 </body>
 </html>
